@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header .upgrade {
+height: 30px;
+background-color: lightblue;
+}
+
+.side_bar {
+  background-color: red;
+  height: 800px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: calc(100vh - 30px - 100px);
+  background-color: blue;
+  overflow-y: auto;
+}
+
+footer {
+  height: 100px;
+  background-color: lightblue;
+}
+
+main .artist {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 10px;
+}
+
+main .recently_played,
+main .created_for {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

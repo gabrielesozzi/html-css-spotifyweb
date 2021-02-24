@@ -5,62 +5,235 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Spotify Web</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/master.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
     <div class="upgrade">
-
+      <div class="btn_upgrade">
+        <button type="button" name="button" class="upper">Effettua l'upgrade</button>
+      </div>
       <aside class="side_bar">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        <div class="logo">
+          <img src="./assets/img/Spotify_Logo_RGB_White.png" alt="" width="130" height="40">
+          <i class="fab fa-spotify color_white centered"></i>
+        </div>
+        <div class="menu_home">
+          <ul>
+            <li><svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M 256.274 60.84 L 84.324 166.237 L 84.324 443.063 L 193.27 443.063 L 193.27 293.73 L 320.228 293.73 L 320.228 443.063 L 428.222 443.063 L 428.222 165.476 L 256.274 60.84 Z M 256.274 35.95 L 448.452 149.145 L 448.452 464.395 L 300 464.395 L 300 315.062 L 213.499 315.062 L 213.499 464.395 L 64.095 464.395 L 64.095 150.161 L 256.274 35.95 Z" fill="currentColor"></path></svg><a href="#" class="text">Home</a></li>
+            <li><svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M357.079 341.334l94.476 110.73-32.508 27.683-94.222-110.476q-45.714 30.476-150.826 30.476-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 23.365-5.841 45.714t-16.635 41.651-25.778 35.555zM224 357.079q28.19 0 53.841-11.048t44.19-29.587 29.587-44.19 11.048-53.841-11.048-53.841-29.587-44.191-44.19-29.587-53.841-11.047-53.841 11.047-44.191 29.588-29.587 44.19-11.047 53.841 11.047 53.841 29.588 44.19 44.19 29.587 53.841 11.048z" fill="currentColor"></path></svg><a href="#" class="text">Cerca</a></li>
+            <li><svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z" fill="currentColor"></path></svg><a href="#" class="text">La tua libreria</a></li>
+          </ul>
+        </div>
+        <div class="menu_playlist">
+          <ul>
+            <li class="upper color_white">playlist</li>
+            <li><a href="#"><svg class="_28160026e8be14060f22ead8e2af36f5-scss bg_grey add_playlist" shape-rendering="crispEdges" viewBox="0 0 36 36"><path d="m28 20h-8v8h-4v-8h-8v-4h8v-8h4v8h8v4z"></path></svg>Crea Playlist</a></li>
+            <li><a href="#">Mostra Playlist</a></li>
+            <li><a href="#">Mostra Playlist</a></li>
+            <li><a href="#">Mostra Playlist</a></li>
+            <li><a href="#">Mostra Playlist</a></li>
+            <li><a href="#">Mostra Playlist</a></li>
+            <li><a href="#">Mostra Playlist</a></li>
+            <li><a href="#">Mostra Playlist</a></li>
+          </ul>
+        </div>
+        <div class="app_install">
+          <ul>
+            <li><i class="fas fa-arrow-circle-down prova"></i> <a href="#" class="text"> <span id="download"></span> Installa l'app</a></li>
+            <hr class="bg_grey">
+            <li><i class="fas fa-user-circle"></i><a href="#" class="text">Gabriele</a></li>
+          </ul>
+        </div>
       </aside>
     </div>
   </header>
 
   <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <ul class="menu_top">
+            <li><a href="#" class="upper color_lightgrey">in evidenza</a><div class="selected"></div> </li>
+            <li><a href="#" class="upper color_lightgrey">podcast</a></li>
+            <li><a href="#" class="upper color_lightgrey">classifiche</a></li>
+            <li><a href="#" class="upper color_lightgrey">generi e mood</a></li>
+            <li><a href="#" class="upper color_lightgrey">nuove uscite</a></li>
+            <li><a href="#" class="upper color_lightgrey">scopri</a></li>
+          </ul>
+        </div>
 
-    <div class="recently_played">
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
+        <div class="col-12">
+          <h3 class="color_white">Recently played</h3>
+        </div>
+      </div>
     </div>
 
-    <div class="created_for">
-      <div class="artist"></div>
-      <div class="artist"></div>
+    <section id="recently_played">
+      <div class="recently_played">
+        <div class="artist">
+          <img src="./assets/img/katiemelua.jpg" alt="" width="150" height="150">
+          <div class="layover"><i class="far fa-play-circle"></i></div>
+          <h5>Katie Melua</h5>
+          <h6 class="color_lightgrey">Album No.8</h6>
+        </div>
+        <div class="artist">
+          <img src="./assets/img/beatles.jpg" alt="" width="150" height="150">
+          <div class="layover"><i class="far fa-play-circle"></i></div>
+          <h5>The Beatles</h5>
+          <h6 class="color_lightgrey">Abbey Road</h6>
+        </div>
+        <div class="artist">
+          <img src="./assets/img/aliciakeyselement.jpg" alt="" width="150" height="150">
+          <div class="layover"><i class="far fa-play-circle"></i></div>
+          <h5>Alicia Keys</h5>
+          <h6 class="color_lightgrey">The element of freedom</h6>
+        </div>
+        <div class="artist">
+          <img src="./assets/img/lennyitstime.jpg" alt="" width="150" height="150">
+          <div class="layover"><i class="far fa-play-circle"></i></div>
+          <h5>Lenny Kravitz</h5>
+          <h6 class="color_lightgrey">It's time for a love revolution</h6>
+        </div>
+        <div class="artist">
+          <img src="./assets/img/aliciakeysdiary.jpg" alt="" width="150" height="150">
+          <div class="layover"><i class="far fa-play-circle"></i></div>
+          <h5>Alicia Keys</h5>
+          <h6 class="color_lightgrey">The Diary of Alicia Keys</h6>
+        </div>
+        <div class="artist">
+          <img src="./assets/img/laurynhill.jpg" alt="" width="150" height="150">
+          <div class="layover"><i class="far fa-play-circle"></i></div>
+          <h5>Lauryn Hill</h5>
+          <h6 class="color_lightgrey">The Miseducation of Lauryn Hill</h6>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="color_white section_text">Creato per Gabriele</h3>
+          <h5 class="color_lightgrey">Più ascolti. più accurati saranno i suggerimenti.</h5>
+        </div>
+      </div>
     </div>
 
-    <div class="created_for">
-      <div class="artist"></div>
-      <div class="artist"></div>
-    </div>
+      <section id="created_for">
+        <div class="created_for">
+          <div class="artist">
+            <img src="./assets/img/releaseradar.png" alt="" width="150" height="150">
+            <div class="layover"><i class="far fa-play-circle"></i></div>
+            <h5>Release Radar</h5>
+          </div>
+          <div class="artist">
+            <img src="./assets/img/dailymix.jpg" alt="" width="150" height="150">
+            <div class="layover"><i class="far fa-play-circle"></i></div>
+            <h5>Daily Mix 1</h5>
+          </div>
+        </div>
+      </section>
 
-    <div class="created_for">
-      <div class="artist"></div>
-      <div class="artist"></div>
-    </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="color_white">Artisti più popolari</h3>
+            <h5 class="color_lightgrey">Più ascolti, più accurati saranno i suggerimenti.</h5>
+          </div>
+        </div>
+      </div>
 
-    <div class="recently_played">
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
-      <div class="artist"></div>
-    </div>
-  </main>
+      <section id="top_artists">
+        <div class="top_artists">
+          <div class="artist">
+            <img src="./assets/img/ireneconti.jpeg" alt="" width="150" height="150">
+            <div class="layover"><i class="far fa-play-circle"></i></div>
+            <h5>Irene Conti</h5>
+          </div>
+          <div class="artist">
+            <img src="./assets/img/katiemelua2.jpg" alt="" width="150" height="150">
+            <div class="layover"><i class="far fa-play-circle"></i></div>
+            <h5>Katie Melua</h5>
+          </div>
+        </div>
+      </section>
 
-  <footer>
+    </main>
 
-  </footer>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <div class="row">
+              <div class="col-6 text-center">
+                <img src="./assets/img/lennykravitz.jpg" alt="" width="50" height="50" class="cover">
+              </div>
+              <div class="col-6 play_now">
+                <span class="color_lightgrey author">Lenny Kravitz</span>
+                <span class="color_lightgrey song">Baptized</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1">
+            <div class="row">
+              <div class="folder_div d-flex align-content-end flex-wrap col-xs-12 col-sm-6">
+                <i class="far fa-folder color_lightgrey"></i>
+              </div>
+              <div class="heart_div d-flex align-content-end flex-wrap col-xs-12 col-sm-6">
+                <i class="far fa-heart color_lightgrey"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="row">
+              <div class="col-12 driver text-center">
+                <a href="#"><i class="fas fa-random color_lightgrey"></i></a>
+                <a href="#"><i class="fas fa-step-backward color_lightgrey"></i></a>
+                <a href="#"><i class="fas fa-play-circle color_lightgrey"></i></a>
+                <a href="#"><i class="fas fa-step-forward color_lightgrey"></i></a>
+                <a href="#"><i class="fas fa-redo color_lightgrey"></i></a>
+              </div>
+              <div class="col-12">
+                <div class="container-bar">
+                  <div class="bar">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row">
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-4">
+                    <i class="fas fa-bars icon color_lightgrey"></i>
+                  </div>
+                  <div class="col-4">
+                    <i class="fas fa-desktop icon color_lightgrey"></i>
+                  </div>
+                  <div class="col-4">
+                    <i class="fas fa-volume-up icon color_lightgrey"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-8 sound_volume">
+                <div class="container-bar">
+                  <div class="bar">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
 
 
 </body>
